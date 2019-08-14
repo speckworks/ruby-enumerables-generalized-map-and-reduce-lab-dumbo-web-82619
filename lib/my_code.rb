@@ -19,12 +19,15 @@ end
 #     source_array = [1,2,3]
 #     expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
 
-def my_own_reduce(source_array, starting_point = 0)
+def my_own_reduce(memo, obj)
   current_element = 0
   if starting_point=0  
   new_array = []
 while current_element < array.length 
-  new_array << yield(source_array[current_element], starting_point)
+  new_array << yield(reduce {|memo, obj|
+  puts "memo is #{memo} and obj is #{obj}"
+  puts "new memo is #{obj + memo}", "="*23
+  obj + mem
   starting_point +=1
   current_element +=1
   yield
