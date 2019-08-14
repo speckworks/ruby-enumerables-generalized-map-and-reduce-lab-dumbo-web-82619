@@ -22,7 +22,7 @@ end
 def reduce(memo, obj = 0)
   current_element = 0
   new_array = []
-while current_element < array.length 
+while current_element < memo.length 
   new_array {|memo, obj|
   obj + memo}
   current_element +=1
