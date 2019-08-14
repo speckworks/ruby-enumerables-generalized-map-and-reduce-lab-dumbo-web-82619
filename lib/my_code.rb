@@ -19,9 +19,9 @@ end
 #     source_array = [1,2,3]
 #     expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
 
-def reduce(source_array, starting_point = nil)
+def reduce(source_array, starting_point = 0)
   current_element = 0
-  if starting_point=nil  
+  if starting_point=0  
   new_array = []
 while current_element < array.length 
   new_array << yield(source_array[current_element])
