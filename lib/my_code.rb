@@ -24,7 +24,8 @@ def my_own_reduce(source_array, starting_point = 0)
   if starting_point=0  
   new_array = []
 while current_element < array.length 
-  new_array << yield(source_array[current_element])
+  new_array << yield(source_array[current_element], starting_point)
+  starting_point +=1
   current_element +=1
   yield
   new_array
