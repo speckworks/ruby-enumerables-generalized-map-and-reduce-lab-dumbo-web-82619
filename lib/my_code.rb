@@ -19,7 +19,7 @@ end
 #     source_array = [1,2,3]
 #     expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
 
-def reduce(source_array, starting_point = 0)
+def my_own_reduce(source_array, starting_point = 0)
   current_element = 0
   if starting_point=0  
   new_array = []
