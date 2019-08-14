@@ -24,8 +24,6 @@ def reduce(memo, obj)
   new_array = []
 while current_element < array.length 
   new_array {|memo, obj|
-  puts "memo is #{memo} and obj is #{obj}"
-  puts "new memo is #{obj + memo}",
   obj + memo}
   current_element +=1
   end
