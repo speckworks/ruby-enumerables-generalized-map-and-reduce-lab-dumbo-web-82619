@@ -31,7 +31,6 @@ while current_element < array.length
   end
 end
   return new_array
-end
 
 
 
