@@ -29,8 +29,9 @@ while current_element < array.length
   obj + memo}
   current_element +=1
   end
-end
   return new_array
+end
+
 
 
 
