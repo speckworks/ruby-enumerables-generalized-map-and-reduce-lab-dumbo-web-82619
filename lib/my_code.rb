@@ -25,9 +25,8 @@ def my_own_reduce(memo, obj)
 while current_element < array.length 
   reduce {|memo, obj|
   puts "memo is #{memo} and obj is #{obj}"
-  puts "new memo is #{obj + memo}", "="*23
-  obj + mem
-  starting_point +=1
+  puts "new memo is #{obj + memo}",
+  obj + memo
   current_element +=1
   yield
   new_array
