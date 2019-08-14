@@ -28,8 +28,6 @@ while current_element < array.length
   puts "new memo is #{obj + memo}",
   obj + memo}
   current_element +=1
-  yield
-  new_array
   end
 end
   return new_array
