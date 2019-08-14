@@ -26,7 +26,7 @@ while current_element < array.length
   reduce {|memo, obj|
   puts "memo is #{memo} and obj is #{obj}"
   puts "new memo is #{obj + memo}",
-  obj + memo
+  obj + memo}
   current_element +=1
   yield
   new_array
