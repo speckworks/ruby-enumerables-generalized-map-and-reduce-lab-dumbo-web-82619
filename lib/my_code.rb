@@ -26,7 +26,6 @@ def reduce(source_array, starting_point = 0)
 while current_element < array.length 
   new_array << yield(source_array[current_element])
   current_element +=1
-  puts new_array 
   yield
   new_array
   end
